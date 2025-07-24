@@ -83,17 +83,7 @@ with st.sidebar:
 | 3 | **Set initial bill** to 0. |
 | 4 | **Add base cost**:• S = $15• M = $20<br>• L = $25 st.header("📘 Code Summary")
     st.markdown("""
-### 🧾 **Python Pizza Deliveries Summary**
 
-| Step | Description |
-|------|-------------|
-| 1️⃣ | **Greet the user** with a welcome message. |
-| 2️⃣ | **Take inputs**:<br>• Size (S/M/L)<br>• Pepperoni (Y/N)<br>• Extra Cheese (Y/N) |
-| 3️⃣ | **Set initial bill** to 0. |
-| 4️⃣ | **Add base cost**:<br>• S = $15<br>• M = $20<br>• L = $25<br>• Invalid input → Error |
-| 5️⃣ | **Add for pepperoni**:<br>• S = +$2<br>• M/L = +$3 |
-| 6️⃣ | **Add $1** for extra cheese if selected |
-| 7️⃣ | **Print final bill** to the user |
 
 ---
 ### 💡 Example:
@@ -103,9 +93,9 @@ with st.sidebar:
 
 **Total Bill:** `$24`
 """)
-| 5️⃣ | **Add for pepperoni**:• S = +$2 • M/L = +$3 c
-| 6️⃣ | **Add $1** for extra cheese if selected |
-| 7️⃣ | **Print final bill** to the user |
+| 5 | **Add for pepperoni**:• S = +$2 • M/L = +$3 c
+| 6 | **Add $1** for extra cheese if selected |
+| 7 | **Print final bill** to the user |
 
 ---
 ### 💡 Example:
