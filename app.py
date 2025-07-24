@@ -72,7 +72,6 @@ with st.sidebar:
     ## **Detailed Explanation**
     Understanding the Python Code:
      """)         
-    st.header("📘 Code Summary")
     st.markdown("""
 ---
 ### 💡 Example:
