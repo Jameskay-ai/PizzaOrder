@@ -75,6 +75,13 @@ with st.sidebar:
     st.markdown("""
 ---
 ### 💡 Example:
+**PRICE**
+**S = 15**
+**M = 20**
+**L = 25**
+**Peperoni = 2(S) 3(M/L)**
+**Extra Cheese = 1**
+
 **Size:** M  
 **Pepperoni:** Y  
 **Extra Cheese:** Y  
