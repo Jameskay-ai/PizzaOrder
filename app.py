@@ -1,30 +1,37 @@
-print("Welcome to Python Pizza Deliveries!")
-size = input("What size pizza do you want? S, M or L: ")
-pepperoni = input("Do you want pepperoni on your pizza? Y or N: ")
-extra_cheese = input("Do you want extra cheese? Y or N: ")
+import streamlit as st
 
-# todo: work out how much they need to pay based on their size choice.
+# --- Page Setup ---
+st.set_page_config(page_title="🍕 Python Pizza Deliveries", layout="centered")
 
-bill = 0
+# --- Custom Background Image ---
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("https://images.unsplash.com/photo-1601924582975-dfdb0f3f9297");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        font-family: 'Courier New', monospace;
+    }
+    .block-container {
+        background-color: rgba(0, 0, 0, 0.75);
+        padding: 2rem;
+        border-radius: 10px;
+    }
+    h1, h2, h3, h4 {
+        color: #ffcc00;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
-if size == "S":
-    bill += 15
-elif size == "M":
-    bill += 20
-elif size == "L":
-    bill += 25
-else:
-    print("You have chosen an invalid size.")
+# --- App Title ---
+st.markdown("<h1 style='text-align: center;'>🍕 Welcome to Python Pizza Deliveries!</h1>", unsafe_allow_html=True)
 
-# todo: work out how much to add to their bill based on their pepperoni choice.
-if pepperoni == "Y":
-    if size == "S":
-        bill += 2
-    else:
-        bill += 3
-
-# todo: work out their final amount based on whether if they want extra cheese.
-if extra_cheese == "Y":
-    bill += 1
-
-print(f"Your final bill is: ${bill}.")
+# --- Order Section ---
+with st.container():
+    st.subhead
