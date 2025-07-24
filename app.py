@@ -83,15 +83,6 @@ with st.sidebar:
 | 3 | **Set initial bill** to 0. |
 | 4 | **Add base cost**:• S = $15• M = $20<br>• L = $25 st.header("📘 Code Summary")
     st.markdown("""
-
-
----
-### 💡 Example:
-**Size:** M  
-**Pepperoni:** Y  
-**Extra Cheese:** Y  
-
-**Total Bill:** `$24`
 """)
 | 5 | **Add for pepperoni**:• S = +$2 • M/L = +$3 c
 | 6 | **Add $1** for extra cheese if selected |
