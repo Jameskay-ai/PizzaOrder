@@ -78,10 +78,10 @@ with st.sidebar:
 
 | Step | Description |
 |------|-------------|
-| 1️⃣ | **Greet the user** with a welcome message. |
-| 2️⃣ | **Take inputs**• Size (S/M/L)• Pepperoni (Y/N)• Extra Cheese (Y/N) |
-| 3️⃣ | **Set initial bill** to 0. |
-| 4️⃣ | **Add base cost**:• S = $15• M = $20<br>• L = $25 st.header("📘 Code Summary")
+| 1 | **Greet the user** with a welcome message. |
+| 2 | **Take inputs**• Size (S/M/L)• Pepperoni (Y/N)• Extra Cheese (Y/N) |
+| 3 | **Set initial bill** to 0. |
+| 4 | **Add base cost**:• S = $15• M = $20<br>• L = $25 st.header("📘 Code Summary")
     st.markdown("""
 ### 🧾 **Python Pizza Deliveries Summary**
 
