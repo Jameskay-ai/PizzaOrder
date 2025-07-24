@@ -82,7 +82,7 @@ with st.sidebar:
 **Peperoni = 2(S) 3(M/L)**
 **Extra Cheese = 1**
 
-**SAMPLE ORDER**
+### SAMPLE ORDER
 **Size:** M  
 **Pepperoni:** Y  
 **Extra Cheese:** Y  
