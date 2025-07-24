@@ -84,7 +84,7 @@ with st.sidebar:
 | 4 | **Add base cost**: (S = $15)(M = $20)(L = $25) 
 """)
     st.markdown("""
-| 5 | **Add for pepperoni**: (S = +$2) (M/L = +$3) 
+| 5 | **Add for pepperoni**:(S = +$2)(M/L = +$3) 
 | 6 | **Add $1** for extra cheese if selected |
 | 7 | **Print final bill** to the user |
 
