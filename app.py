@@ -72,7 +72,28 @@ with st.sidebar:
     ## **Detailed Explanation**
     Understanding the Python Code:
      """)         
-                 
+    st.header("📘 Code Summary")
+    st.markdown("""
+### 🧾 **Python Pizza Deliveries Summary**
+
+| Step | Description |
+|------|-------------|
+| 1️⃣ | **Greet the user** with a welcome message. |
+| 2️⃣ | **Take inputs**:<br>• Size (S/M/L)<br>• Pepperoni (Y/N)<br>• Extra Cheese (Y/N) |
+| 3️⃣ | **Set initial bill** to 0. |
+| 4️⃣ | **Add base cost**:<br>• S = $15<br>• M = $20<br>• L = $25<br>• Invalid input → Error |
+| 5️⃣ | **Add for pepperoni**:<br>• S = +$2<br>• M/L = +$3 |
+| 6️⃣ | **Add $1** for extra cheese if selected |
+| 7️⃣ | **Print final bill** to the user |
+
+---
+### 💡 Example:
+**Size:** M  
+**Pepperoni:** Y  
+**Extra Cheese:** Y  
+
+**Total Bill:** `$24`
+""")             
     st.markdown("""      
     - ### **Real World Applications:**
     - ##### Order Processing - Fundamental POS systems calculation
